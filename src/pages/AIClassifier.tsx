@@ -41,7 +41,7 @@ const AIClassifier = () => {
     formData.append("file", imageFile);
 
     try {
-      const response = await fetch("https://foodproject-backend-y74b.onrender.com/predict/", {
+      const response = await fetch("https://nooneshouldtouch-backendapi.hf.space/predict/", {
         method: "POST",
         body: formData,
       });
